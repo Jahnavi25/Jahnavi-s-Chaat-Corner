@@ -67,12 +67,13 @@ struct FirstScreenElementView: View {
         }
     }
 }
+
 struct FirstScreenElementView_Previews: PreviewProvider {
-        static var previews: some View {
-            
-            let utility1 = Utility(id:1, title:"Income", amount: 0, summary: "", sList:Utility1 , url:urlIncome)
-            
-            FirstScreenElementView(ut:utility1)
-        }
+    static var previews: some View {
+        
+        let utility1 = Utility(id:1, title:"Income", amount: 0, summary: "", sList:Utility1 , url:urlIncome)
+        
+        FirstScreenElementView(ut:utility1)
     }
+}
 

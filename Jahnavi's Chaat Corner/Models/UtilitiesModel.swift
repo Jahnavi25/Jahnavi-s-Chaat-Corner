@@ -31,8 +31,13 @@ class Utility: Identifiable, ObservableObject{
         sourceList.append(new)
     }
     
-    func addNewSummary(new: InformationModel){
-        sourceList.append(new)
+    func updateSource(updatedSource: InformationModel) {
+            if let index = sourceList.firstIndex(where: { $0.id == updatedSource.id }) {
+                sourceList[index] = updatedSource
+            }
     }
+    
+    
+
     
 }

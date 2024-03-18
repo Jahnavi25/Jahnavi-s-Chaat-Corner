@@ -70,14 +70,14 @@ struct AddSourceView: View {
                     .background(Color.black.cornerRadius(10))
             }
         }
-    
+        
         .navigationTitle("Add New Source")
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         
         
     }
     
-
+    
     
     func saveSource() {
         // Convert tfSamt string to an integer
@@ -96,9 +96,8 @@ struct AddSourceView: View {
         tfSamt = ""
         tfSsummary = ""
     }
-
+    
 }
-
 
 struct AddSourceView_Previews: PreviewProvider {
     static var previews: some View {
