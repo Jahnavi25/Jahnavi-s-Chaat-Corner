@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8395F81D2BA6EAA60058AB73 /* AddSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8395F81C2BA6EAA60058AB73 /* AddSummaryView.swift */; };
+		DF2F75042BA54A35003DA623 /* UtilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F75032BA54A35003DA623 /* UtilityView.swift */; };
+		DF2F75062BA55111003DA623 /* SourceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F75052BA55111003DA623 /* SourceListView.swift */; };
+		DF2F75082BA565A6003DA623 /* AddSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2F75072BA565A6003DA623 /* AddSourceView.swift */; };
+		DF7B6D492BA384C3003178B0 /* Jahnavi_s_Chat_CornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B6D482BA384C3003178B0 /* Jahnavi_s_Chat_CornerApp.swift */; };
+		DF7B6D4B2BA384C3003178B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B6D4A2BA384C3003178B0 /* ContentView.swift */; };
+		DF7B6D4D2BA384C4003178B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7B6D4C2BA384C4003178B0 /* Assets.xcassets */; };
+		DF7B6D502BA384C5003178B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7B6D4F2BA384C5003178B0 /* Preview Assets.xcassets */; };
+		DF7B6D5A2BA3898E003178B0 /* InformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B6D592BA3898E003178B0 /* InformationModel.swift */; };
+		DF7B6D5C2BA38BF1003178B0 /* UtilitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B6D5B2BA38BF1003178B0 /* UtilitiesModel.swift */; };
+		DF7B6D5F2BA39245003178B0 /* InformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7B6D5E2BA39245003178B0 /* InformationViewModel.swift */; };
+		DF83F8E42BA3FCDE0029F8AA /* FirstScreenElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83F8E32BA3FCDE0029F8AA /* FirstScreenElementView.swift */; };
+		DFC93AEE2BA6486200339D7F /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC93AED2BA6486200339D7F /* HomepageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8395F81C2BA6EAA60058AB73 /* AddSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSummaryView.swift; sourceTree = "<group>"; };
+		DF2F75032BA54A35003DA623 /* UtilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityView.swift; sourceTree = "<group>"; };
+		DF2F75052BA55111003DA623 /* SourceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceListView.swift; sourceTree = "<group>"; };
+		DF2F75072BA565A6003DA623 /* AddSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSourceView.swift; sourceTree = "<group>"; };
+		DF7B6D452BA384C3003178B0 /* Jahnavi's Chaat Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jahnavi's Chaat Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7B6D482BA384C3003178B0 /* Jahnavi_s_Chat_CornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jahnavi_s_Chat_CornerApp.swift; sourceTree = "<group>"; };
+		DF7B6D4A2BA384C3003178B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF7B6D4C2BA384C4003178B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7B6D4F2BA384C5003178B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF7B6D592BA3898E003178B0 /* InformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModel.swift; sourceTree = "<group>"; };
+		DF7B6D5B2BA38BF1003178B0 /* UtilitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesModel.swift; sourceTree = "<group>"; };
+		DF7B6D5E2BA39245003178B0 /* InformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewModel.swift; sourceTree = "<group>"; };
+		DF83F8E32BA3FCDE0029F8AA /* FirstScreenElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenElementView.swift; sourceTree = "<group>"; };
+		DFC93AED2BA6486200339D7F /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7B6D422BA384C3003178B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7B6D3C2BA384C3003178B0 = {
+			isa = PBXGroup;
+			children = (
+				DF7B6D472BA384C3003178B0 /* Jahnavi's Chaat Corner */,
+				DF7B6D462BA384C3003178B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7B6D462BA384C3003178B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B6D452BA384C3003178B0 /* Jahnavi's Chaat Corner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7B6D472BA384C3003178B0 /* Jahnavi's Chaat Corner */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B6D582BA388C7003178B0 /* Views */,
+				DF7B6D562BA38873003178B0 /* Models */,
+				DF7B6D482BA384C3003178B0 /* Jahnavi_s_Chat_CornerApp.swift */,
+				DF7B6D4C2BA384C4003178B0 /* Assets.xcassets */,
+				DF7B6D4E2BA384C5003178B0 /* Preview Content */,
+			);
+			path = "Jahnavi's Chaat Corner";
+			sourceTree = "<group>";
+		};
+		DF7B6D4E2BA384C5003178B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B6D4F2BA384C5003178B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF7B6D562BA38873003178B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B6D592BA3898E003178B0 /* InformationModel.swift */,
+				DF7B6D5B2BA38BF1003178B0 /* UtilitiesModel.swift */,
+				DF7B6D5E2BA39245003178B0 /* InformationViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF7B6D582BA388C7003178B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DFC93AED2BA6486200339D7F /* HomepageView.swift */,
+				DF7B6D4A2BA384C3003178B0 /* ContentView.swift */,
+				DF83F8E32BA3FCDE0029F8AA /* FirstScreenElementView.swift */,
+				DF2F75032BA54A35003DA623 /* UtilityView.swift */,
+				DF2F75052BA55111003DA623 /* SourceListView.swift */,
+				DF2F75072BA565A6003DA623 /* AddSourceView.swift */,
+				8395F81C2BA6EAA60058AB73 /* AddSummaryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7B6D442BA384C3003178B0 /* Jahnavi's Chaat Corner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7B6D532BA384C5003178B0 /* Build configuration list for PBXNativeTarget "Jahnavi's Chaat Corner" */;
+			buildPhases = (
+				DF7B6D412BA384C3003178B0 /* Sources */,
+				DF7B6D422BA384C3003178B0 /* Frameworks */,
+				DF7B6D432BA384C3003178B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jahnavi's Chaat Corner";
+			productName = "Jahnavi's Chat Corner";
+			productReference = DF7B6D452BA384C3003178B0 /* Jahnavi's Chaat Corner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7B6D3D2BA384C3003178B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DF7B6D442BA384C3003178B0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DF7B6D402BA384C3003178B0 /* Build configuration list for PBXProject "Jahnavi's Chaat Corner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7B6D3C2BA384C3003178B0;
+			productRefGroup = DF7B6D462BA384C3003178B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7B6D442BA384C3003178B0 /* Jahnavi's Chaat Corner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7B6D432BA384C3003178B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B6D502BA384C5003178B0 /* Preview Assets.xcassets in Resources */,
+				DF7B6D4D2BA384C4003178B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7B6D412BA384C3003178B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8395F81D2BA6EAA60058AB73 /* AddSummaryView.swift in Sources */,
+				DF83F8E42BA3FCDE0029F8AA /* FirstScreenElementView.swift in Sources */,
+				DF7B6D5C2BA38BF1003178B0 /* UtilitiesModel.swift in Sources */,
+				DF7B6D4B2BA384C3003178B0 /* ContentView.swift in Sources */,
+				DF7B6D5A2BA3898E003178B0 /* InformationModel.swift in Sources */,
+				DF7B6D5F2BA39245003178B0 /* InformationViewModel.swift in Sources */,
+				DF2F75042BA54A35003DA623 /* UtilityView.swift in Sources */,
+				DF7B6D492BA384C3003178B0 /* Jahnavi_s_Chat_CornerApp.swift in Sources */,
+				DF2F75082BA565A6003DA623 /* AddSourceView.swift in Sources */,
+				DFC93AEE2BA6486200339D7F /* HomepageView.swift in Sources */,
+				DF2F75062BA55111003DA623 /* SourceListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF7B6D512BA384C5003178B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7B6D522BA384C5003178B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7B6D542BA384C5003178B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jahnavi's Chat Corner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jahnavi.Jahnavi-s-Chat-Corner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7B6D552BA384C5003178B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jahnavi's Chat Corner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jahnavi.Jahnavi-s-Chat-Corner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7B6D402BA384C3003178B0 /* Build configuration list for PBXProject "Jahnavi's Chaat Corner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7B6D512BA384C5003178B0 /* Debug */,
+				DF7B6D522BA384C5003178B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7B6D532BA384C5003178B0 /* Build configuration list for PBXNativeTarget "Jahnavi's Chaat Corner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7B6D542BA384C5003178B0 /* Debug */,
+				DF7B6D552BA384C5003178B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7B6D3D2BA384C3003178B0 /* Project object */;
+}
